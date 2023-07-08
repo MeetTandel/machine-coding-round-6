@@ -1,0 +1,98 @@
+.restaurant__item__container {
+    display: flex;
+    margin: 5px auto;
+    max-width: 900px;
+    width: 100%
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.restaurant__item {
+    margin-left: 100px;
+    width: 100%;
+    text-align: left;
+}
+
+.restaurant__item h1 {
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    background-color: #ef4f5f;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.restaurant__content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: flex-start;
+    border-bottom: 1px solid #afaeaf;
+    padding-bottom: 20px;
+}
+
+.restaurant__detail > p {
+    color: #989798;
+    font-size: 0.95rem;
+}
+
+.restaurant__review h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.review {
+    margin: 15px 0;
+    border-bottom: 1px solid #afaeaf;
+    padding-bottom: 10px;
+}
+
+.review_detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.review__profile {
+    display: flex;
+    align-items: center;
+}
+.review__profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.review__profile p {
+    font-weight: 700;
+}
+
+.review .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #008000;
+    height: 25px;
+    padding: 0 8px;
+    border-radius: 5px;
+    color: #FFD602;
+}
+
+.modal .MuiPopover-paper {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  max-height: calc(100% - 10px) !important;
+  background-color: #ef4f5f;
+  border-radius: 10px;
+}
